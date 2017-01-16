@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.leminh.englishtutor">
+    package="com.example.hcd_fresher037.englishtutor">
 
     <application
         android:allowBackup="true"
@@ -11,10 +11,15 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AboutUs"/>
+        <activity android:name=".Topic.TopicActivity"/>
+        <activity android:name=".SpeakActivity"/>
+        <activity android:name=".Topic.TopicDetail"/>
+        <activity android:name=".Expression.ExpressionActivity"/>
+        <activity android:name=".Expression.ExpressDetail"/>
     </application>
 
 </manifest>
